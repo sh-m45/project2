@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body{
+        background-color: brown;
+    }
+    .shrouk{
+        background-color: burlywood;
+    }
+    .sh{
+        background-color: #aeb3bb;
+    }
+    .submit{
+        background-color:#0a0a0a;
+        color: white;
+        width: 100px ;
+    }
+    .city{
+        width: 90px ;
+        
+    }
+</style>
+<body>
+
+    <form>
+        <fieldset>
+            <legend class="sh">Personal Data</legend>
+            
+            <form>
+                <fieldset class="shrouk"> 
+                    <legend class="sh">Your Name</legend>
+                    <table class="cla">
+                        <tr>
+                            <td><label> First Name : </label></td>
+                            <td><input type="text" name="fname" placeholder="first name"></td>
+                        </tr>
+                        <tr>
+                            <td><label> First Name : </label></td>
+                            <td><input type="text" name="fname" placeholder="first name"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+            <br> <br> <br>
+            <form>
+                <table>
+                    <tr>
+                        <td><label> Your Phone : </label></td>
+                        <td><input type="number" name="num" placeholder="your Phone "></td>
+                    </tr>
+                    <tr>
+                        <td><label> Email: </label></td>
+                        <td><input type="email" name="email" placeholder="your email"></td>
+                    </tr>
+                    <tr>
+                        <td><label> Password : </label></td>
+                        <td><input type="password" name="pass" placeholder="your password"></td>
+                    </tr>
+                    <tr>
+                        <td><label> re-password : </label></td>
+                        <td><input type="password" name="pass" placeholder="re-password"></td>
+                    </tr>
+                </table>
+                <br><br><br>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="radio" name="gender" value="male">
+                            <label>male</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="gender" value="female">
+                            <label>female</label>   
+                        </td>
+                    </tr>
+                </table>
+                <br> <br>
+                <table>
+                    <tr>
+                        <td><input type="checkbox" name="student" value="student"></td>
+                        <td><label> student</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="student" value="graduated"></td>
+                        <td><label> graduated </label></td>
+                    </tr>
+                </table>
+                <br> 
+                <table>
+                    <tr>
+                        <td>
+                            <select name="city" class="city">
+                                <option>cairo</option>
+                                <option>giza</option>
+                                <option>alex</option>
+                                <option>tanta</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            
+            <input type="submit" class="submit">
+        </fieldset>
+        
+    </form>
+</body>
+</html>
